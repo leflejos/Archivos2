@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>s0yyy y0</title>
+    <link rel="stylesheet" href="normalize.css">
+</head>
+<body>
+    <p> El número aleatorio esta vez es </p>
+    <input type="text" id="capture">
+    <canvas with="300" height="300" id="canvas1m"></canvas>
+    <script src="jsborrar.js"></script>
+</body>
+</html>
+
+
+<!--
+//TODO EL JS ABAJO
+
+// document.addEventListener("keydown" funcionkey11);
+
+//<input type="text"/>
+//<input type="button" value="texto_De_Boton"/>
+//document.addEventListener("keydown", funcionkey11);
+//document.addEventListener(KeyboardEvent, funcionkey11);
+
+
+
+var teclapres = document.getElementById("capture");
+teclapres.addEventListener("keypress", function(keyboardEvent) {
+     let code   = keyboardEvent.keyCode;//.key
+//console.log("code is " + code);
+
+var señal1 = 0;
+var colorazar1 = Math.ceil(Math.random() * 10);
+console.log("El colorazar1 es " + colorazar1);
+
+if(code == 114 || code == 82){
+    coder1 = 0;
+    codeR2 = 0;
+    if(code == 82){
+        codeR2 = "R"
+        //console.log("Presionaste la tecla de recarga, tú código es " + codeR2);
+    }
+    if(codeR2 == "R"){
+        //console.log("Presionaste la tecla de recarga, tú código es " + coder1);
+        if(codeR2 == "R"){
+        if(colorazar1 == 5 || colorazar1 == 6){
+            var varcolor1 = 56;
+            return varcolor1;
+        }
+
+        if(colorazar1 == 1 || colorazar1 == 2){
+            var varcolor1 = 12;
+            return varcolor1;
+        }
+        if(colorazar1 == 3 || colorazar1 == 4){
+            var varcolor1 = 34;
+            return varcolor1;
+        }
+        if(colorazar1 >= 7){
+            var varcolor1 = 77;
+            console.log("Te tocó un número igual o mayor a 7");
+            console.log("VARCOLOR1 ES " + varcolor1);
+            var señal1 = 1;
+            señalalar(señal1);
+        }
+    }
+    }
+}
+});
+
+function señalalar(señales1){
+    if(señales1 == 1){
+        alert ("Tu número es mayor a 7 y ganaste ");
+    }
+}
+
+function pintaralgo1(){
+    console.log("varcolor1 en function es " + varcolor1);
+    if (varcolor1 == 56){
+        alert("Tu número está entre 5 y 6");
+    }
+    if (varcolor1 == 12){
+        alert("Tu número está entre 1 y 2");
+    }
+    if (varcolor1 == 34){
+        alert("Tu número está entre 3 y 4");
+    }
+    if (varcolor1 == 77){
+        alert("Tu número es mayor a 7");
+    }
+}
+
+numeroazar1();
+function numeroazar1(){
+    var numazar1 = Math.random() * 100;
+    console.log("v123 es " + Math.ceil(numazar1));
+    var numazarp1 = Math.random() * 100;
+}
+
+-->
